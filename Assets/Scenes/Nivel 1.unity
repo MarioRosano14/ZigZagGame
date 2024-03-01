@@ -131,6 +131,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.x
+      value: 3.8904507
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.y
+      value: 6.4113536
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.z
+      value: 4.011069
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.x
+      value: -0.2811898
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.y
+      value: -2.7056763
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.z
+      value: -0.15639322
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_Name
       value: Rock_06 (3)
@@ -338,7 +362,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -467,7 +491,7 @@ GameObject:
   - component: {fileID: 228387132}
   m_Layer: 0
   m_Name: Plane (1)
-  m_TagString: Untagged
+  m_TagString: Plano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -676,6 +700,7 @@ GameObject:
   - component: {fileID: 316934142}
   - component: {fileID: 316934141}
   - component: {fileID: 316934140}
+  - component: {fileID: 316934143}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -769,6 +794,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316934138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &316934143
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316934138}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &331092773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -777,6 +824,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.x
+      value: 3.7483318
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.y
+      value: 5.595127
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.z
+      value: 3.314607
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.x
+      value: -0.20148861
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.y
+      value: 0.20983137
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.z
+      value: 1.1573094
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_Name
       value: Rock_06 (1)
@@ -1111,6 +1182,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -476265935075602162, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_Size.x
+      value: 3.7614224
+      objectReference: {fileID: 0}
+    - target: {fileID: -476265935075602162, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_Size.z
+      value: 2.6066947
+      objectReference: {fileID: 0}
+    - target: {fileID: -476265935075602162, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_Center.x
+      value: -0.01710541
+      objectReference: {fileID: 0}
+    - target: {fileID: -476265935075602162, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
+      propertyPath: m_Center.z
+      value: -0.10857494
+      objectReference: {fileID: 0}
     - target: {fileID: 1000010869019282, guid: d7ba4fe833670a140b9b6085652f0e26, type: 3}
       propertyPath: m_Name
       value: Rock_02
@@ -2453,7 +2540,7 @@ GameObject:
   - component: {fileID: 994713102}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Plano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2658,6 +2745,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.x
+      value: 3.4912426
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.y
+      value: 5.4940434
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.z
+      value: 2.6263807
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.x
+      value: -0.33436006
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.y
+      value: -0.40275177
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.z
+      value: -0.8131961
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013569322780, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
       propertyPath: m_Name
       value: Rock_05 (1)
@@ -2737,6 +2848,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.x
+      value: 4.047709
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.y
+      value: 5.664515
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.z
+      value: 1.9518107
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.x
+      value: -0.011685517
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.y
+      value: 0.16288762
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.z
+      value: -0.4759061
+      objectReference: {fileID: 0}
     - target: {fileID: 1000013569322780, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
       propertyPath: m_Name
       value: Rock_05 (2)
@@ -3654,7 +3789,7 @@ GameObject:
   - component: {fileID: 1516524546}
   m_Layer: 0
   m_Name: Plane (2)
-  m_TagString: Untagged
+  m_TagString: Plano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4070,16 +4205,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
     - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Size.x
+      value: 3.9259112
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
       propertyPath: m_Size.y
-      value: 1.0044143
+      value: 6.9143424
+      objectReference: {fileID: 0}
+    - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
+      propertyPath: m_Center.x
+      value: -0.17473365
       objectReference: {fileID: 0}
     - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
       propertyPath: m_Center.y
-      value: 0.0022081255
+      value: 0.17881608
       objectReference: {fileID: 0}
     - target: {fileID: -551516844277804113, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
       propertyPath: m_Center.z
-      value: -2.949561e-14
+      value: 1.56328e-11
       objectReference: {fileID: 0}
     - target: {fileID: 1000013569322780, guid: 5d10ae558efe6a64d96e5b4d02ec6792, type: 3}
       propertyPath: m_Name
@@ -4265,6 +4408,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.x
+      value: 5.1851087
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.y
+      value: 3.0221243
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.z
+      value: 4.569133
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.x
+      value: -0.1433284
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.y
+      value: -1.011062
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.z
+      value: 0.075916216
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_Name
       value: Rock_06
@@ -4514,6 +4681,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 459285192}
     m_Modifications:
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.x
+      value: 2.5225687
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.y
+      value: 5.0183115
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Size.z
+      value: 4.389894
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.x
+      value: -0.7612842
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.y
+      value: -0.42012116
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223754847588875171, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Center.z
+      value: 0.0705704
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_Name
       value: Rock_06 (2)
@@ -5528,7 +5719,7 @@ GameObject:
   - component: {fileID: 2069229837}
   m_Layer: 0
   m_Name: Plane (3)
-  m_TagString: Untagged
+  m_TagString: Plano
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
