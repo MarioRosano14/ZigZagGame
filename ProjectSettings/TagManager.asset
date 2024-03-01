@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Roca
+  - Premio
+  - SueloQuebradizo
+  - ParedChoca
+  - LineaMeta
+  - "Bot\xF3n"
+  - Puente
   layers:
   - Default
   - TransparentFX
