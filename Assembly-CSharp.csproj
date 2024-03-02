@@ -59,18 +59,22 @@
     <UnityVersion>2022.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\Hydra\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.4\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\victo\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.4\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ImportedAssets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Scripts\menuInicial.cs" />
+    <Compile Include="Assets\ImportedAssets\Free 2D Cartoon Parallax Background\Demo\Script\ParallaxBackground_0.cs" />
     <Compile Include="Assets\Scripts\CreacionPuente.cs" />
-    <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\ImportedAssets\Free 2D Cartoon Parallax Background\Demo\Script\BackgroundControl_0.cs" />
     <Compile Include="Assets\Scripts\JugadorBola.cs" />
     <Compile Include="Assets\Scripts\DestruccionSuelo.cs" />
+    <Compile Include="Assets\Scripts\cuentaAtras.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
+    <None Include="Assets\ImportedAssets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
