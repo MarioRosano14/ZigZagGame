@@ -5,6 +5,7 @@ using UnityEngine;
 public class CreacionPuente : MonoBehaviour
 {
     public GameObject suelo;
+    public GameObject obstaculo;
 
     private AudioSource audioSource;
     [SerializeField] private AudioClip colectar1;
@@ -12,6 +13,8 @@ public class CreacionPuente : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
 
         if (other.gameObject.tag == "Player") {
+            
+            Destroy(obstaculo.gameObject);
 
             audioSource = GetComponent<AudioSource>();
             audioSource.PlayOneShot(colectar1);

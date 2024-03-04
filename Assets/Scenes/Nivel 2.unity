@@ -1109,6 +1109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   suelo: {fileID: 716510097}
+  obstaculo: {fileID: 159993298}
   colectar1: {fileID: 8300000, guid: 79595cd6a2689ae44962b083e8f8889a, type: 3}
 --- !u!82 &226718651
 AudioSource:
@@ -8352,6 +8353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   suelo: {fileID: 743525716}
+  obstaculo: {fileID: 604244129}
   colectar1: {fileID: 8300000, guid: 79595cd6a2689ae44962b083e8f8889a, type: 3}
 --- !u!82 &1946550826786148191
 AudioSource:
