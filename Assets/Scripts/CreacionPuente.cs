@@ -6,9 +6,15 @@ public class CreacionPuente : MonoBehaviour
 {
     public GameObject suelo;
 
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip colectar1;
+
     private void OnTriggerEnter(Collider other) {
 
         if (other.gameObject.tag == "Player") {
+
+            audioSource = GetComponent<AudioSource>();
+            audioSource.PlayOneShot(colectar1);
 
             MeshRenderer meshRenderer = suelo.GetComponent<MeshRenderer>();
             meshRenderer.enabled = true;

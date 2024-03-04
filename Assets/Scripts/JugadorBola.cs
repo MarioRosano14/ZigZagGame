@@ -8,20 +8,26 @@ public class JugadorBola : MonoBehaviour
 {
 
     public Camera camara;
-    public GameObject suelo;
     public float velocidad = 5.0f;
 
     private Vector3 offset;
     private Vector3 DireccionActual;
 
-    public Image leftButton;
-    public Image rightButton;
+    private int totalEstrellas = 0;
+    public Text contadorEstrellas;
+
+    [SerializeField] private AudioClip colectar1;
+    [SerializeField] private AudioClip colectar2;
+    [SerializeField] private AudioClip colectar3;
+
+    private AudioSource audioSource;
     
     // Start is called before the first frame update
     void Start()
     {
-        offset = camara.transform.position;
+        offset = camara.transform.position - transform.position;
         DireccionActual = Vector3.forward;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -43,17 +49,33 @@ public class JugadorBola : MonoBehaviour
         if (DireccionActual == Vector3.forward) {
             if(direccion == 1) {
                 DireccionActual = Vector3.left;
-                rightButton.gameObject.SetActive(false);
             }
             if(direccion == 2) {
                 DireccionActual = Vector3.right;
-                leftButton.gameObject.SetActive(false);
             }
         }
         else {
             DireccionActual = Vector3.forward;
-            rightButton.gameObject.SetActive(true);
-            leftButton.gameObject.SetActive(true);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other) {
+
+        if (other.gameObject.tag == "Obstaculo") {
+            audioSource.PlayOneShot(colectar1);
+            SceneManager.LoadScene("DeadEnd");
+        }
+
+        if (other.gameObject.tag == "Premio") {
+            audioSource.PlayOneShot(colectar2);
+            totalEstrellas++;
+            contadorEstrellas.text = "Puntuacion: " + totalEstrellas;
+            Destroy(other.gameObject);
+        }
+
+        if (other.gameObject.tag == "LineaMeta") {
+            audioSource.PlayOneShot(colectar3);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 

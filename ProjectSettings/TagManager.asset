@@ -12,6 +12,8 @@ TagManager:
   - "Bot\xF3n"
   - Puente
   - Plano
+  - startButton
+  - Obstaculo
   layers:
   - Default
   - TransparentFX

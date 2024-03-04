@@ -10,7 +10,7 @@ public class menuInicial : MonoBehaviour
     // Start is called before the first frame update
     public void Jugar()
     {
-        SceneManager.LoadScene("TIP_1");
+        SceneManager.LoadScene("TIP_CuidadoSuelo");
     }
 
     // Update is called once per frame
